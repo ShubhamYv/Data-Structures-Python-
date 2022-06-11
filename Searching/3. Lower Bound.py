@@ -9,7 +9,8 @@ def lowerBound(arr, n, ele):
             low= mid+1
     return low
 
-
+from sys import setrecursionlimit
+setrecursionlimit(100000000)
 
 def main():
     t= int(input())
