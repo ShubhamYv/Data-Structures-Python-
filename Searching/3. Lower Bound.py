@@ -9,6 +9,8 @@ def lowerBound(arr, n, ele):
             low= mid+1
     return low
 
+
+
 def main():
     t= int(input())
     while t>0:
